@@ -15,7 +15,7 @@ public class Test {
         FileOutputStream fos=new FileOutputStream("E:/cs.txt");
         FileOutputStream fos1=new FileOutputStream("e:cs1.txt");
         FileInputStream fis=new FileInputStream("E:/cs.txt");
-        String s="1-3-66-2-88-95-5656-77-8888-23";
+        String s="1-999-66-2-88-95-5656-77-8888-23-666";
         fos.write(s.getBytes());
         byte b[]=new byte[3];
         int num=0;
