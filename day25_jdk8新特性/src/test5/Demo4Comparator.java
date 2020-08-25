@@ -22,7 +22,8 @@ public class Demo4Comparator {
     public static void main(String[] args) {
         String arr[]={"aaa","bb","cccc","ddddd"};
         System.out.println(Arrays.toString(arr));
-        Arrays.sort(arr,getComparator());
+        //Arrays.sort(arr,getComparator());
+        Arrays.sort(arr,( o1, o2)-> o2.length()-o1.length());
         System.out.println(Arrays.toString(arr));
 
     }
